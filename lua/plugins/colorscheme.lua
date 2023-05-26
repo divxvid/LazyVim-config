@@ -90,9 +90,9 @@ return {
     name = "rose-pine",
     opts = {
       --- @usage 'auto'|'main'|'moon'|'dawn'
-      variant = "main",
+      variant = "moon",
       --- @usage 'main'|'moon'|'dawn'
-      dark_variant = "main",
+      dark_variant = "moon",
       bold_vert_split = false,
       dim_nc_background = false,
       disable_background = false,
@@ -133,7 +133,7 @@ return {
         ColorColumn = { bg = "rose" },
 
         -- Blend colours against the "base" background
-        CursorLine = { bg = "foam", blend = 10 },
+        CursorLine = { bg = "pine", blend = 10 },
         StatusLine = { fg = "love", bg = "love", blend = 10 },
       },
     },
